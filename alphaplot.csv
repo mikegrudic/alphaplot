@@ -1,4 +1,51 @@
 System,Reference,Lower mass (Msun),Upper mass (Msun),Slope (Salpeter=2.35),Slope uncertainty,Lower limit (1 sigma),Upper limit (1 sigma),Metallicity [Z/H],Models binarity?,Notes
+$\Theta$ Ori,2001ApJ...556..830B,0.013,0.2,0.8,0.4,,,0,FALSE,
+30 Dor,1999A&A...347..532S,3,120,2.37,0.08,,,-0.5,FALSE,r>3.6pc
+30 Dor,1999A&A...347..532S,2.8,120,2.17,0.05,,,-0.5,FALSE,1.1pc < r < 4.5
+30 Dor,2000ApJ...533..203S,1.35,2.1,1.27,0.08,,,-0.5,FALSE,
+30 Dor,2000ApJ...533..203S,2.1,6.5,2.28,0.05,,,-0.5,FALSE,
+30 Dor,2018Sci...359...69S,30,142.8,1.84,0.18,,,-0.5,FALSE,Fitting to number of massive stars
+30 Dor,2018Sci...359...69S,15,203,1.9,,1.64,2.27,-0.5,FALSE,
+Arches,1999ApJ...525..750F,6.3,125,1.6,0.1,,,0,FALSE,
+Arches,2019ApJ...870...44H,1.8,70,1.8,0.05,,,0,FALSE,0.05 stat + 0.06 sys
+Arches,2019ApJ...870...44H,1.8,5.4,0.95,0.45,,,0,FALSE,2-part; break mass has ~1.6msun uncertainty
+Arches,2019ApJ...870...44H,5.4,70,2.12,0.11,,,0,FALSE,2-part; break mass has ~1.6msun uncertainty
+Chamaeleon,2014MNRAS.444.1957D,,,,,,,,,
+Cyg OB2,2010ApJ...713..871W,1,40,2.09,0.15,,,0,FALSE,
+Galactic Bulge,1998AJ....115.1946H,0.3,0.7,0.9,,,,-0.5,FALSE,
+Galactic Bulge,1998AJ....115.1946H,0.7,1,2.2,,,,-0.5,FALSE,
+Galactic Bulge,2000ApJ...530..418Z,0.15,0.5,1.42,0.13,,,-0.5,FALSE,
+Galactic Bulge,2000ApJ...530..418Z,0.5,1,2,0.23,,,-0.5,FALSE,
+Galactic Bulge,2015ApJ...810....8C,0.15,0.56,1.25,0.2,,,-0.5,FALSE,
+Galactic Bulge,2015ApJ...810....8C,0.56,1,2.41,0.5,,,-0.5,FALSE,
+Globular clusters,1999A&A...345..485P,0.1,0.6,0.88,0.35,,,-1.25,FALSE,"M10, M22, M55"
+Globular clusters,1999A&A...345..485P,0.6,0.8,2.3,,,,-1.25,FALSE,"M10, M22, M55"
+h Per,2013AJ....145...46L,4,25,2.25,0.23,,,0,FALSE,
+Hyades,2008A&A...481..661B,,,,,,,,,
+IC 348,2000ApJ...541..977N,0.015,0.22,0.5,,,,0,FALSE,
+IC 348,2014MNRAS.444.1957D,,,,,,,,,
+Lambda Ori?,,,,,,,,,,
+LMC OB Assoc.,2001AJ....121..891P,5,60,2.3,0.2,,,-0.5,FALSE,
+M31,2015ApJ...806..198W,2,25,2.45,,2.39,2.48,0,TRUE,Value consistent with all clusters in catalogue; assumes mass-independent binary fraction of 0.35
+M35,2001ApJ...546.1006B,0.08,0.2,-0.88,0.12,,,-0.15,FALSE,
+M35,2001ApJ...546.1006B,0.2,0.8,0.81,0.02,,,-0.15,FALSE,
+M35,2001ApJ...546.1006B,0.8,6,2.59,0.04,,,-0.15,FALSE,
+MW Nuclear Star Cluster,2010ApJ...708..834B,5,100,2.15,0.3,,,0.18,FALSE,Inner radius
+MW Nuclear Star Cluster,2010ApJ...708..834B,5,100,0.45,0.3,,,0.18,FALSE,Mid radius
+MW Nuclear Star Cluster,2010ApJ...708..834B,5,100,2.15,0.3,,,0.18,FALSE,Outer radius
+MW Nuclear Star Cluster,2013ApJ...764..155L,1,150,1.7,0.2,,,0.18,TRUE,
+NGC 2264,2000AJ....120..894P,2,6.3,2.7,,,,0,FALSE,
+NGC 2264,2014MNRAS.444.1957D,,,,,,,,,
+NGC 330 ,2002ApJ...579..275S,,,,,,,-1,,
+NGC 346,2008AJ....135..173S,0.8,60,2.43,0.18,,,-1,FALSE,
+NGC 3603,1998ApJ...498..278E,1,30,1.73,,,,0,FALSE,
+NGC 3603,1998ApJ...498..278E,15,70,2.7,,,,0,FALSE,
+NGC 3603,2008ApJ...675.1319H,0.4,20,1.75,,1.12,2.21,0,FALSE,
+NGC 3603,2013ApJ...764...73P,4,45,1.88,0.15,,,0,FALSE,
+NGC 602,2008ApJ...681..290S,1,45,2.2,0.3,,,-1,FALSE,
+NGC 1818,2001A&A...369...74S,0.9,3,2.5,,,,-0.9,FALSE,Outer region
+NGC 1818,2001A&A...369...74S,0.9,3,3.4,,,,-0.9,FALSE,Outer region
+NGC 2244,2023arXiv230507158A,,,,,,,,,
 ONC,2000ApJ...533..358M,0.02,0.08,-0.35,,,,0,FALSE,
 ONC,2000ApJ...533..358M,0.02,0.08,0,,,,0,FALSE,
 ONC,2000ApJ...533..358M,0.08,0.8,1.25,,,,0,FALSE,
@@ -30,74 +77,37 @@ ONC,2002ApJ...573..366M,,,,,,,,,
 Pleiades,2001A&A...367..211M,0.04,0.3,0.51,0.15,,,0,FALSE,
 Pleiades,1999MNRAS.303..835H,0.065,0.6,0.56,,,,0,FALSE,
 Pleiades,1999MNRAS.303..835H,0.6,10,2.67,,,,0,FALSE,
-,,,,,,,,,,
-$\Theta$ Ori,2001ApJ...556..830B,0.013,0.2,0.8,0.4,,,0,FALSE,
-,,,,,,,,,,
-M35,2001ApJ...546.1006B,0.08,0.2,-0.88,0.12,,,-0.15,FALSE,
-M35,2001ApJ...546.1006B,0.2,0.8,0.81,0.02,,,-0.15,FALSE,
-M35,2001ApJ...546.1006B,0.8,6,2.59,0.04,,,-0.15,FALSE,
-,,,,,,,,,,
-Cyg OB2,2010ApJ...713..871W,1,40,2.09,0.15,,,0,FALSE,
-,,,,,,,,,,
-IC 348,2000ApJ...541..977N,0.015,0.22,0.5,,,,0,FALSE,
-,,,,,,,,,,
-NGC 2264,2000AJ....120..894P,2,6.3,2.7,,,,0,FALSE,
-,,,,,,,,,,
-LMC OB Assoc.,2001AJ....121..891P,5,60,2.3,0.2,,,-0.5,FALSE,
-,,,,,,,,,,
-NGC1818,2001A&A...369...74S,0.9,3,2.5,,,,-0.9,FALSE,Outer region
-NGC1818,2001A&A...369...74S,0.9,3,3.4,,,,-0.9,FALSE,Outer region
-,,,,,,,,,,
-30 Dor,1999A&A...347..532S,3,120,2.37,0.08,,,-0.5,FALSE,r>3.6pc
-30 Dor,1999A&A...347..532S,2.8,120,2.17,0.05,,,-0.5,FALSE,1.1pc < r < 4.5
-30 Dor,2000ApJ...533..203S,1.35,2.1,1.27,0.08,,,-0.5,FALSE,
-30 Dor,2000ApJ...533..203S,2.1,6.5,2.28,0.05,,,-0.5,FALSE,
-30 Dor,2018Sci...359...69S,30,142.8,1.84,0.18,,,-0.5,FALSE,Fitting to number of massive stars
-30 Dor,2018Sci...359...69S,15,203,1.9,,1.64,2.27,-0.5,FALSE,
-Arches,1999ApJ...525..750F,6.3,125,1.6,0.1,,,0,FALSE,
-Arches,2019ApJ...870...44H,1.8,70,1.8,0.05,,,0,FALSE,0.05 stat + 0.06 sys
-Arches,2019ApJ...870...44H,1.8,5.4,0.95,0.45,,,0,FALSE,2-part; break mass has ~1.6msun uncertainty
-Arches,2019ApJ...870...44H,5.4,70,2.12,0.11,,,0,FALSE,2-part; break mass has ~1.6msun uncertainty
-MW Nuclear Star Cluster,2010ApJ...708..834B,5,100,2.15,0.3,,,0.18,FALSE,Inner radius
-MW Nuclear Star Cluster,2010ApJ...708..834B,5,100,0.45,0.3,,,0.18,FALSE,Mid radius
-MW Nuclear Star Cluster,2010ApJ...708..834B,5,100,2.15,0.3,,,0.18,FALSE,Outer radius
-MW Nuclear Star Cluster,2013ApJ...764..155L,1,150,1.7,0.2,,,0.18,TRUE,
-NGC 3603,1998ApJ...498..278E,1,30,1.73,,,,0,FALSE,
-NGC 3603,1998ApJ...498..278E,15,70,2.7,,,,0,FALSE,
-NGC 3603,2008ApJ...675.1319H,0.4,20,1.75,,1.12,2.21,0,FALSE,
-NGC 3603,2013ApJ...764...73P,4,45,1.88,0.15,,,0,FALSE,
-Westerlund 1,2011MNRAS.412.2469G,2.5,25,2.44,,2.36,2.64,0,FALSE,
-Westerlund 1,2013AJ....145...46L,5,100,1.8,0.1,,,0,FALSE,
-Westerlund 1,2002ApJ...573..366M,0.6,7,2,0.1,,,0,FALSE,
-Westerlund 1,2002ApJ...573..366M,0.6,7,1.8,0.2,,,0,FALSE,
-Trumpler 14,2012AJ....143...41H,1.6,100,2.3,0.1,,,0,FALSE,
-Trumpler 16,2012AJ....143...41H,1.6,100,2.3,0.1,,,0,FALSE,
-χ Per,2013AJ....145...46L,4,25,2.36,0.2,,,0,FALSE,
-h Per,2013AJ....145...46L,4,25,2.25,0.23,,,0,FALSE,
-Globular clusters,1999A&A...345..485P,0.1,0.6,0.88,0.35,,,-1.25,FALSE,"M10, M22, M55"
-Globular clusters,1999A&A...345..485P,0.6,0.8,2.3,,,,-1.25,FALSE,"M10, M22, M55"
-,,,,,,,,,,
-Galactic Bulge,1998AJ....115.1946H,0.3,0.7,0.9,,,,-0.5,FALSE,
-Galactic Bulge,1998AJ....115.1946H,0.7,1,2.2,,,,-0.5,FALSE,
-Galactic Bulge,2000ApJ...530..418Z,0.15,0.5,1.42,0.13,,,-0.5,FALSE,
-Galactic Bulge,2000ApJ...530..418Z,0.5,1,2,0.23,,,-0.5,FALSE,
-Galactic Bulge,2015ApJ...810....8C,0.15,0.56,1.25,0.2,,,-0.5,FALSE,
-Galactic Bulge,2015ApJ...810....8C,0.56,1,2.41,0.5,,,-0.5,FALSE,
-,,,,,,,,,,
+Praesepe,,,,,,,,,,
+Quintuplet,2012A&A...540A..57H,5,40,1.68,,1.55,1.77,0,FALSE,Central region
+ρ Oph,2014MNRAS.444.1957D,,,,,,,,,
+Sh 2-209,2023ApJ...943..137Y,0.1,12,2,,2.2,1.9,-0.5,FALSE,main cluster
+SMC Field OB Stars,2013ApJ...763..101L,0.43,,,,,,-1,FALSE,
 Solar Neighborhood,1999ApJ...521..613R,0.02,0.08,1.5,0.5,,,0,FALSE,
 Solar Neighborhood,1999ApJ...526L..17H,0.02,0.08,,,,0.8,0,FALSE,
 Solar Neighborhood,2001ApJ...554.1274C;2002ApJ...567..304C,0.01,0.08,,,,1,0,FALSE,
 Solar Neighborhood,2001ApJ...554.1274C;2002ApJ...567..304C,0.1,0.35,1,,,,0,FALSE,
 Solar Neighborhood,2001ApJ...554.1274C;2002ApJ...567..304C,0.35,1,2,,,,0,FALSE,
-,,,,,,,,,,
-M31,2015ApJ...806..198W,2,25,2.45,,2.39,2.48,0,TRUE,Value consistent with all clusters in catalogue; assumes mass-independent binary fraction of 0.35
-,,,,,,,,,,
-Quintuplet,2012A&A...540A..57H,5,40,1.68,,1.55,1.77,0,FALSE,Central region
-Taurus?,,,,,,,,,,
-Rho oph?,,,,,,,,,,
-Chamaleon?,,,,,,,,,,
-Lambda Ori?,,,,,,,,,,
-Praesepe?,,,,,,,,,,
-Hyades?,,,,,,,,,,
-,,,,,,,,,,
-Sh 2-209,2023ApJ...943..137Y,0.1,12,2,,2.2,1.9,-0.5,FALSE,main cluster
+Solar Neighborhood,2023Natur.613..460L,0.3,0.7,,,,,-0.8,TRUE,
+Solar Neighborhood,2023Natur.613..460L,0.3,0.7,,,,,-0.6,TRUE,
+Solar Neighborhood,2023Natur.613..460L,0.3,0.7,,,,,-0.4,TRUE,
+Solar Neighborhood,2023Natur.613..460L,0.3,0.7,,,,,-0.25,TRUE,
+Solar Neighborhood,2023Natur.613..460L,0.3,0.7,,,,,-0.15,TRUE,
+Solar Neighborhood,2023Natur.613..460L,0.3,0.7,,,,,-0.05,TRUE,
+Solar Neighborhood,2023Natur.613..460L,0.3,0.7,,,,,0.07,TRUE,
+Solar Neighborhood,2023Natur.613..460L,0.3,0.7,,,,,0.25,TRUE,
+Solar Neighborhood,2019MNRAS.489.2377S,0.15,1,1.34,0.07,,,0,TRUE,
+Solar Neighborhood,2019MNRAS.489.2377S,1,2.5,2.68,0.09,,,0,TRUE,
+Solar Neighborhood,2019MNRAS.489.2377S,1,2.5,2.41,0.11,,,0,TRUE,
+Solar Neighborhood,2018A&A...620A..39J,,,,,,,,,
+Solar Neighborhood,2018A&A...614A..43D,,,,,,,,,
+Solar Neighborhood,2017A&A...607A.126Y,,,,,,,,,
+,(Dawson & Schr ̈oder 2010; Jahreiß 2010; Rybizki & Just 2015; Mor et al. 2019),,,,,,,,,
+Solar Neighborhood,2019A&A...624L...1M,,,,,,,,,
+Taurus,2014MNRAS.444.1957D,,,,,,,,,
+Trumpler 14,2012AJ....143...41H,1.6,100,2.3,0.1,,,0,FALSE,
+Trumpler 16,2012AJ....143...41H,1.6,100,2.3,0.1,,,0,FALSE,
+Westerlund 1,2011MNRAS.412.2469G,2.5,25,2.44,,2.36,2.64,0,FALSE,
+Westerlund 1,2013AJ....145...46L,5,100,1.8,0.1,,,0,FALSE,
+Westerlund 1,2002ApJ...573..366M,0.6,7,2,0.1,,,0,FALSE,
+Westerlund 1,2002ApJ...573..366M,0.6,7,1.8,0.2,,,0,FALSE,
+χ Per,2013AJ....145...46L,4,25,2.36,0.2,,,0,FALSE,
