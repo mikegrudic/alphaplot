@@ -31,7 +31,8 @@ IC 348,2014MNRAS.444.1957D;2003ApJ...593.1093L,0.015,0.137,0.2,0.2,,,0,,Young cl
 IC 348,2014MNRAS.444.1957D;2003ApJ...593.1093L,0.137,0.837,1.38,0.12,,,0,,Young cluster,,,,
 IC 348,2014MNRAS.444.1957D;2003ApJ...593.1093L,0.837,4.5,2.267,0.3,,,0,,Young cluster,,,,
 IC 348,2003ApJ...593.1093L,,,,,,,,,Young cluster,,,,
-λ Ori?,,,,,,,,,,,,,,
+λ Ori,2004astro.ph..9499B,0.7,25,2.27,0.08,,,,,Young cluster,,,,
+λ Ori,2004astro.ph..9499B,0.02,0.7,0.73,0.05,,,,,Young cluster,,,,
 LMC OB Assoc.,2001AJ....121..891P,5,60,2.3,0.2,,,-0.5,FALSE,OB Association,,,,
 M31,2015ApJ...806..198W,2,25,2.45,,2.39,2.48,0,TRUE,Young cluster,,,,Value consistent with all clusters in catalogue; assumes mass-independent binary fraction of 0.35
 M35,2001ApJ...546.1006B,0.08,0.2,-0.88,0.12,,,-0.15,FALSE,Young cluster ,,,,
@@ -43,11 +44,15 @@ MW Nuclear Star Cluster,2010ApJ...708..834B,5,100,2.15,0.3,,,0.18,FALSE,Nuclear 
 MW Nuclear Star Cluster,2013ApJ...764..155L,1,150,1.7,0.2,,,0.18,TRUE,Nuclear cluster,,,,
 NGC 1818,2001A&A...369...74S,0.9,3,2.5,,,,-0.9,FALSE,Young cluster,,,,Outer region
 NGC 1818,2001A&A...369...74S,0.9,3,3.4,,,,-0.9,FALSE,Young cluster,,,,Outer region
-NGC 2244,2023arXiv230507158A,,,,,,,,,Young cluster,,,,
+NGC 2244,2023arXiv230507158A,0.045,0.2,0.68,0.11,,,0,TRUE,Young cluster,,,,Varied binarity assumptions; results consistent within stat. errors
+NGC 2244,2023arXiv230507158A,0.045,0.4,1.05,0.15,,,0,TRUE,Young cluster,,,,Varied binarity assumptions; results consistent within stat. errors
 NGC 2264,2000AJ....120..894P,2,6.3,2.7,,,,0,FALSE,Young cluster,,,,
 NGC 2264,2014MNRAS.444.1957D;2010AJ....140.2070S,0.015,0.2,0,0.1,,,0,FALSE,Young cluster,,,,
 NGC 2264,2014MNRAS.444.1957D;2010AJ....140.2070S,0.2,1.2,1.46,0.13,,,0,FALSE,Young cluster,,,,
 NGC 2264,2014MNRAS.444.1957D;2010AJ....140.2070S,1.2,33.8,2.71,0.14,,,0,FALSE,Young cluster,,,,
+NGC 2024,2014MNRAS.444.1957D;2006ApJ...646.1215L,0.02,0.181,0.821,0.237,,,0,FALSE,Young cluster,,,,
+NGC 2024,2014MNRAS.444.1957D;2006ApJ...646.1215L,0.181,0.846,1.174,0.306,,,0,FALSE,Young cluster,,,,
+,,,,,,,,,,,,,,
 NGC 330 ,2002ApJ...579..275S,,,,,,,-1,FALSE,Young cluster,,,,
 NGC 346,2008AJ....135..173S,0.8,60,2.43,0.18,,,-1,FALSE,Young cluster,,,,
 NGC 3603,1998ApJ...498..278E,1,30,1.73,,,,0,FALSE,Young cluster,,,,
@@ -136,8 +141,8 @@ Westerlund 1,2008A&A...478..137B,3.4,30,2.6,,,,0,FALSE,Young Cluster,,,,1.5-3.5p
 ρ Oph,2014MNRAS.444.1957D;2012A&A...539A.151A,1.255,7.72,2.255,0.224,,,0,FALSE,Young Cluster,,,,
 σ Ori,2001ApJ...556..830B,0.013,0.2,0.8,0.4,,,0,FALSE,Young Cluster,,,,
 χ Per,2002ApJ...576..880S,4,25,2.36,0.2,,,0,FALSE,Young Cluster,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
+RCW 38,2017MNRAS.471.3699M,0.5,20,1.6,0.13,,,0,TRUE,Young Cluster,,,,Performed study of impact of binarity properties; found results were fairly insensitive
+RCW 38,2017MNRAS.471.3699M,0.02,0.5,0.71,0.11,,,0,TRUE,Young Cluster,,,,Performed study of impact of binarity properties; found results were fairly insensitive
 ,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
