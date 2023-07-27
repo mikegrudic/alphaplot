@@ -1,0 +1,281 @@
+#=================================================================
+# BASED on Scalo's (1998) gamma vs mass plot
+# ENHANCED by Hillenbrand 05/2001 
+# UPDATED through mid-2003 and sporadically through early-2004
+# ADDED SOME RECENT RESULTS IN SUMMER 2013
+# ADDED SELECTED RECENT RESULTS IN SUMMER 2019
+#
+# col 1:  gamma = 1-alpha where Salpeter has gamma = -1.35 and alpha = 2.35  
+# col 2:  1/2(lg(minimum mass) + lg(maximum mass)) in Msun
+# col 3:  ctype/ptype code for plotting
+# col 4:  minimum mass covered by gamma value
+# col 5:  maximum mass covered by gamma value
+# col 6:  quoted error on slope (column not always present)
+# col 7:  name
+# col 8+:  reference
+#
+#-----------------Extrasolar Planets!-----------------------------
+ 0.15  -2.562     9  0.0005 0.015  X planets (marcy/butler/fischer/vogt) 
+#
+#--------Globular Clusters measured at half-mass radius-----------
+ 0.25  -0.616    63  0.09 0.65 0.25 M4 (Richer/Hansen 2002) 
+-0.6   -0.310    63  0.3  0.8  0.2  NGC6397 (di Marchi et al. 2000 -- NICMOS)
+ 0.8   -0.784    63  0.09 0.3  0.1  NGC6397 (di Marchi et al. 2000 -- NICMOS)
+ 0.0   -0.549    63  0.1  0.8       omegacen (pulone et al. 1998 -- NICMOS)
+-0.5   -0.310    63  0.3  0.8       47Tuc (di Marchi et al. 1995)
+ 0.85  -0.673    63  0.15 0.3       47Tuc (di Marchi et al. 1995)
+# -1.0 slope reported for 0.1-0.4 msun for M15, M30, M92 by piotto/king/cool
+# but +0.1 for same mass range in ngc6397
+#
+#-----------------Milky Way Clusters/OB Assoc---------------------
+# first the probably/plausibly bound ones, then others, finally star-forming
+-1.24   1.000      5 4    16  0.2   Hper (Slesnick etal 2002)
+-1.38   1.000      5 4    16  0.2   Chiper (Slesnick etal 2002)
+0.04    -0.7218   5 0.072  0.5 0.12 IC2391 (Barrado y Navascues etal 2004)
+-1.30	0.29000    5 1.2   3.0      Pleiades (Meusinger et al.'96) 
+-0.10	-0.35000   5 0.2   1.0      Pleiades (Meusinger et al.'96) (their binary corr. makes it +0.10)
+0.9      -1        5 0.065 0.25       Pleiades (Hambly etal 1999)
+-1.3      0.0      5 0.4 8.5        Pleiades (Hambly etal 1999)
+#0.4     -0.770     5 0.04  0.40    Pleiades (Bouvier et al 1998) REVISED ON NEXT LINE
+0.49    -0.960     5 0.04  0.30     Pleiades (Moreaux et al 2001) 
+0.40    -0.9208    5 0.03  0.48 0.11 Pleiades (Moreaux et al 2003) though argue for lognormal 0.03-10 
+-1.7     0.5880    5 1.5   10.       Pleiades (Moreaux et al 2003) though argue for lognormal 0.03-10 
+#0.6               5            0.11 Pleiades (Casewell et al 2007; Lodieu et al. 2007) 
+0.51    -1.398     5 0.02  0.08     Pleiades (Martin et al 2000) 
+0.25    -0.960     5 0.040 0.3      Pleiades (ZO et al 2002)
+-0.7     -0.443     5 0.13  1.00    Pleiades (Adams et al 2001) though they argue explicitly for a lognormal form
+-1.56    0.389   5 1.5  4          Pleiades (Bouy etal 2015)
+ 0.77   -0.460   5 0.2  0.6        Pleiades (Bouy etal 2015)
+-0.22   -1.00    5 0.05 0.2       Pleiades (Bouy etal 2015)
+ 0.87   -1.412   5 0.03 0.05      Pleiades (Bouy etal 2015)
+ 0.41    -1.029    5 0.035 0.25       AlphaPer(Barrado y Navascues etal 2002) though quoted as slope 0.26 in Barrado y Navascues etal 2004 paper on IC2391
+#0.59              5            0.05 AlphaPer (Lodieu etal 2005, 2012)
+-1.59     0.341    5 0.8     6  0.04 M35 (Barrado y Navascues etal 2001)
+ 0.19    -0.398    5 0.2   0.8  0.02 M35 (Barrado y Navascues etal 2001)
+ 1.88    -0.898    5 0.08  0.2  0.12 M35 (Barrado y Navascues etal 2001) explained as mass segregation
+# 0.42    -0.699    5 0.1   0.4  ?    M35 (Barrado y Navascues etal 2002 as referenced by Bouvier)
+-1.29	 0.1684    5 0.61  3.56 0.27 M35 (Kalirai et al 2003)
+-0.80	-0.2795    5 0.4   0.69 0.34 M50 (Kalirai et al 2003)
+-2.42	 0.2445    5 0.79  3.90 0.14 M50 (Kalirai et al 2003)
+-0.30	-0.460     5 0.0   0.0       Praesepe (Williams, Rieke et al.'95) 
+-1.20	-0.040     5 0.0   0.0       Praesepe 
+-0.6    -0.2       5 0.4   1.0       Praesepe (Adams et al 2002) 
++1      -0.7       5 0.1   0.4       Praesepe (Adams et al 2002) 
+#0.6               5                IC4665 (de Wit et al. 2006; Lodieu et al. 2011)
+-1.46   0.471     2  0.9 9.7        NGC4103 (Sanner et al 2001) 
+-1.60   0.431     2  1.3 5.6        NGC5281  (Sanner et al 2001)
+-1.68   0.606     2  1.2 13.6       NGC4755 (Sanner et al 2001)
+-1.23   0.409     2  0.7 9.4        NGC1960 (Sanner et al 2000)
+-1.33   0.161     2  1.0 2.1        NGC2194 (Sanner et al 2000)
+-1.7    0.411      2 1.7 3.9        ngc1912 (SUBRAMANIAM and SAGAR 1999)
+-1.3    0.361      2 1.7 3.1        ngc2383 (SUBRAMANIAM and SAGAR 1999)
+-1.0    0.724      2 2.0 14.0       ngc2384 (SUBRAMANIAM and SAGAR 1999)
+-1.7    0.381      2 1.7 3.4        ngc6709 (SUBRAMANIAM and SAGAR 1999)
+-1.1    0.573      2 1   14         ngc7510 (sagar and griffiths 1998)
+-1.4    0.088      2 0.6 2.5        berkeley99 (sagar and griffiths 1998)
+-1.1    0.088      2 0.6 2.5        berkeley99 (sagar and griffiths 1998)
+-2.5    0.088      2 0.6 2.5        berkeley81 (sagar and griffiths 1998)
+-0.3    0.088      2 0.6 2.5        ngc7044   (sagar and griffiths 1998)
+-1.06	0.579      2 1.2 12         ngc663 (phelps & janes 1993)      
+-1.14	0.667      2 1.2 18         ngc659 (phelps & janes 1993)  
+-1.41	0.488      2 1.2 7.9        trumpler1 (phelps & janes 1993)
+-1.78	0.579      2 1.2 12         ngc581 (phelps & janes 1993)
+-1.37	0.679      2 1.9 12         ngc457 (phelps & janes 1993)
+-0.84   0.579      2 1.2 12         ngc436 (phelps & janes 1993)
+-1.47	0.521      2 1.4 7.9        ngc103  (phelps & janes 1993)
+-1.64	0.521      2 1.4 7.9        ngc7790 (phelps & janes 1993)
+-1.30	1.253     2   8  40         ngc6823 (massey etal 1995)
+-0.90	1.253     2   8  40         ngc6871
+-1.10	1.253     2   8  40         ngc6913                
+-1.70	1.253     2   8  40         berkeley86 
+-2.00	1.040     2   8  15         ngc7235
+-1.70	1.358     2   8  65         ngc7380
+-2.10	1.190     2   8  30         cepob5
+-1.30	1.452     2   8 100         ic1805
+-1.60	1.358     2   8  65         ngc1893
+-0.80	1.374     2   8  70         ngc2244
+-0.70	1.389     2   8  75         ngc6611
+-1.36   0.377     8   0.9 6.3        ngc6611 (Oliveira et al 2009)
+-0.18  -0.196     8   0.45 0.9       ngc6611 (Oliveira et al 2009)
+ 0.48  -1.023     8   0.02 0.45      ngc6611 (Oliveira et al 2009)
+-0.90	1.472     2   8 110         cygob2
+-1.00	1.491     2   8 120         tr14/16
+#                                   tr14/16 (hur etal 2012)
+##-2.70	0.31000    2 0.0 0.0        berkeley86-core
+#-1.80	0.56000    2 0.0 0.0 
+#-1.80	0.89000    2 0.0 0.0 
+#-0.60	0.69000    2 0.0 0.0 
+#-1.40	0.93000    2 0.0 0.0
+-1.3    0.1417     2 0.6 3.2   0.3  NGC4852 (Carraro et al 2005)
+-1.5    0.5256     2 1.5 7.5   0.48 NGC2580 (Baume etal 2004)
+-2.41   0.4225     2 2.0 3.5   0.37 NGC2588 (Baume etal 2004)
+-2.07   0.1761     2 0.9   2.5 0.08 NGC2422 (Prisinzano etal 2003)
+ 0.61   -0.8239    2 0.09  0.25      NGC2516 (Barrado y Navascues etal 2002)
+-1.40    0.30      2 0.8   3.16 0.28 NGC2516 (Sung etal 2002)
+-1.57    0.1611    2 0.7   3.0       NGC2516 (Jeffries, Thurston, Hambly 2001)
++0.625  -0.3389    2 0.3   0.7       NGC2516 (Jeffries, Thurston, Hambly 2001)
+-1.8      0.3891   2 1.0   6.0  0.40 NGC2547 (Naylor etal 2002)
+-0.20    -0.4464   2 0.16  0.8  0.25 NGC2547 (Naylor etal 2002)
+ 1.06    -0.85     2 0.05  0.40 0.20 NGC2547 (Jeffries etal 2004)
+ 0.43   -0.7078    2 0.12  0.32      Blanco1 (Moreaux et al. 2002)
+ 0.31   -0.8724    2 0.03  0.60 0.15 Blanco1 (Moreaux et al. 2007)
+-1.6    -0.0935    2 0.5   1.3  0.5  Gamma2Vel (Prisinzano 2016)
+-0.1    -0.5484    2 0.16  0.5  0.4  Gamma2Vel (Prisinzano 2016)
+-1.38     0.5636  2  1    13.4 0.12 Stock8 (Jose et al. 2008)
+-0.58   -0.2614   2  0.3   1.0 0.23 Stock8 (Jose et al. 2008)
+-1.28    0.3741    2  0.56  10  0.18 Stock8 (Jose et al. 2017)  -- NEED TO ADD THE <0.5 Msun part
++0.2    -1.293     2 0.013 0.2       SigmaOri (Bejar etal 2001)
+ 0.45   -0.2025    2 0.006 0.35 0.2  SigmaOri (Pena Ramirez et al. 2012)
+-0.70    0.4114    2 0.35  19.  0.2  SigmaOri (Pena Ramirez et al. 2012)
+#                                             (Caballero etal 2012; Bejar et al. 2011)
+ 0.71    -1.0935   2 0.01 0.65  0.10 LambdaOri (Bayo et al. 2011)
+-0.82     0.6054   2 0.65 25    0.05 LambdaOri (Bayo et al. 2011)
++0.27   -0.9268    2 0.02  0.70 0.05 LambdaOri (Barrado etal 2004)
+-1.27    0.6215    2 0.70  25.  0.08 LambdaOri (Barrado etal 2004)
+ 0.74   -1.1783    2 0.011 0.4  0.04 25 Ori (Suarez 2019)
+-1.50    0.3596    2 0.4   13.1 0.11 25 Ori (Suarez 2019)
+-1.40	 0.2782    2 0.8   4.5       NGC7654 (Pandey et al 2001)
+-1.2     0.6751    2 1.4   16   0.2  NGC3293 (Baume etal 2003)
+#                 2                  NGC3293 (Slawson & Ninkov 2000) 
+#                 2                  NGC2362 (Slawson & Ninkov 2000)
+-1.7      0.889    2 4     15       OrionIa (Brown etal 1994)
+-1.6      1.34     2 4     120      OrionIb (Brown etal 1994)
+-1.7      1.20     2 7     36       OrionIc (Brown etal 1994)
+-0.9      0.889    2 3     20       ScoCen (Brown etal 1998)
+-1.6      0.80     2 2     20       ScoCen (Preibish et al 2002)
+-1.8      0.04     2 0.6   2        ScoCen (Preibish et al 2002)
++0.1     -0.61     2 0.1   0.6      ScoCen (Preibish et al 2002)
+# SFRs !
+-1.30   0.488      8 0.15 63        ngc6231 (Sung etal 1998)
+-1.20   1.069      8 2.5  55        ngc6530 (Sung etal 2000)
+-1.22   0.1901     8 0.6   4   0.17 ngc6530 (Prisinzano et al 2004)
+ 0.29    -1.0      8 0.02  0.5 0.11 RCW38 (Muzic 2017)
+-0.60     0.5      8 0.5   20. 0.50 RCW38 (Muzic 2017)
+-0.03    -1.048    8 0.02  0.4 0.02 Rosette/2244 (Muzic 2019)
+-1.12     0.224    8 0.4   7   0.08 Rosette/2244 (Muzic 2019)
+-0.20	-0.61000   8 0.0   0.0      NGC2024 (Comeron, Rieke, Rieke'96) 
+-0.40	-0.61000   8 0.0   0.0      rhoOph  (Comeron, Rieke, Rieke'96) 
+-0.10	-0.70000   8 0.0   0.0      rhoOph (Williams, Comeron et al.'95) 
+#-0.10	0.30000    8 0.0   0.0      rhoOph (Williams, Comeron et al.'95)
+-0.5    -0.699     8 0.1   0.4      rhoOph (Luhman & Rieke 1999)
+ 0.2    -1.7       8 0.005 0.08     rhoOph  (Alves de Oliveira etal 2012)
+-0.1    -0.761     8 0.03  1.0      ChamI (Comeron etal 2000)
+#0.0    -0.55      8 0.02  4        ChaI (Luhman 2007 - guestimating from Fig15)
+ 1.0    -1.6       8 0.02  0.1      ChaI (Luhman 2007 - guestimating from Fig15)
+-1.0     0.6       8 0.1   4        ChaI (Luhman 2007 - guestimating from Fig15)
+#like scalo86      8 0.2   1.5      IC348 (Herbig 1998)
+0.49    -0.989     8 0.015 0.7      IC348 (Najita et al 2000) 
+0.40    -0.8495    8 0.08  0.25     IC348 (Luhman et al 1998) 
+-1.53    0.1981   8 0.83  3     0.30 IC348 Muench etal 2003
+-0.23   -0.5732   8 0.086 0.83  0.14 IC348 Muench etal 2003
+2.28    -1.3340   8 0.025 0.086 0.22 IC348 Muench etal 2003
+ 0.3    -1.7      8 0.005 0.08      IC348 (Luhman et al 2003) -- no slope quoted but fit to histograms from alves de oliveira below
+#0.7               8             0.4 IC348 (Muench etal 2007)
+ 0.0    -1.55      8 0.01 0.08       IC348 (Alves de Oliveira etal 2013)
+ 0.4    -1.523     8 0.0015 0.6    0.1 NGC1333 Scholz et al. 2012
+#???               8                 NGC1333 Winston etal 2009
+0.55    -1.398     8 0.02  0.08     MonrR2 (Meyer et al 2009)
+0.02    -0.898     8 0.02  0.8      Taurus (Luhman 2000) includes LR98 / L1495
+#   *** need to update Taurus based on Briceno 2002 and Luhman 2003,2004  ***
+-1.5     0.638     8 0.63  30       NGC2264 (Sung etal 1997)
+#                                   NGC2264 (Flaccomio etal 1999) incomplete
+-1.7     0.550     8 2.0   6.3 0.3  NGC2264 (Park etal 2000)
+-1.79    0.588     8 0.5   30  0.14 NGC2264 (Sung and Bessell 2010)
+#1.00    -1.398   4 0.02  0.08 0.35 ONC Muench Lada Lada 2000 who use Zinn + McC data but no correction for field stars or reddening
+#-0.25   -0.597   4 0.08  0.80 0.05 ONC Muench Lada Lada 2000
+-1.21    0.128    4 0.60  3.00 0.18 ONC Muench Lada Lada Alves 2002
+-0.15   -0.571    4 0.12  0.60 0.17 ONC Muench Lada Lada Alves 2002
++0.73   -1.261    4 0.025 0.12 0.20 ONC Muench Lada Lada Alves 2002
+-5.00   -1.686    4 0.017 0.025     ONC Muench Lada Lada Alves 2002
++0.62   -1.173   44 0.03  0.15      inner ONC (Hillenbrand & Carpenter 2000)  
+-0.83	-0.111   44 0.15  4         ONC  (Hillenbrand'97 updated) 
+-1.74	 0.739   44 3     10        ONC  (Hillenbrand'97 updated) 
+ 0.3     -0.854    4 0.035 0.56     innerONC (Luhman et al 2000)
+-0.7      0.063    4 0.25  3.0      innerONC (Luhman et al 2000)
+#0.3-0.6           4                ONC (Weights et al. 2009; daRio et al. 2011)
+1.12     -1.062    4 0.025 0.30 0.90 ONC (Da Rio 2012)
+-0.60    -0.022    4 0.3   3.   0.33 ONC (Da Rio 2012)
+0.42     -1.548    4 0.005 0.16 0.06 ONC (Gennaro 2020)
+-0.24    -0.532    4 0.16  0.54 0.26 ONC (Gennaro 2020)
+-1.06    -0.061    4 0.54  1.4  0.32 ONC (Gennaro 2020)
+#                                   ONC_flanking_fields (Rebull et al 2000)
+#-0.2   -0.3724    2  0.3 0.6 0.2    perseus_arm_average (Porras et al 2002)
+#-0.75  -0.1109    2  0.6 1.0 0.1    perseus_arm_average (Porras et al 2002)
+#-0.96   0.5       2  1   10  0.14   perseus_arm_average (Porras et al 2002)
+#-1.8?    1.25     8 10    30         W51 (Okumura etal 2000)
+#----------------- "Extreme" star forming environments--------
+-1.59	1.628     6  15 120         ngc3603 (hofmann etal 1995)
+-0.73	0.739     6  1   30         ngc3603 (eisenhauer etal 1998)
+-1.7 	1.477     6  15  60         ngc3603 (eisenhauer etal 1998)
+#-0.5    1.099     6 1.58 100  0.1   ngc3603core (Sung and Bessell 2004)
+-1.8    1.801     6  40  100  0.1   ngc3603all  (Sung and Bessell 2004)
+-0.9    1.099     6 1.58 100  0.1   ngc3603all  (Sung and Bessell 2004)
+#miller-scalo down to 0.5 msun      ngc3603 (nurnberger & petr-gotzens 2002)
+#-0.74                        0.55  ngc3603 (harayama etal 2008)
+-0.88   0.889    6 0.6 100     0.15  ngc3603 (pang etal 2013)
+ -1.44  0.988     6 3.5 27    0.14  Westerlund1 (Gennaro et al 2011)
+ -0.8   1.349     6  5  100   0.1   Westerlund1 (Lim et al 2013)
+-1.32  -0.038     6 0.6 1.4   0.06 Westerlund1 (Andersen et al 2017)
+-0.25  -0.523     6 0.15 0.6  0.10  Westerlund2 (Andersen et al 2017)
+#                                   Westerlund2 (Zeidler et al 2017)
+-0.65	1.448     6 6.3 125         Arches/Qunituplet (Figer etal 1999)
+-0.79	1.55      6 10  126 0.16    Arches (Yang etal 2002)
+-0.80	0.981     6 1.8  51 0.05    Arches (Hosek etal 2019)
+#-0.68                       0.11    Quintuplet (Hussmann etal 2012)
+-0.7    1.540     6 10  120 0.2     YNC (Lu etal 2013)  #unsure about upper mass limit
+#----------------- LMC ---------------------------------------
+#-4.2    1.860     70 25 120 LMC field (massey 2002/1995) 
+#-4.0    1.860     70 25 120 SMC field (massey 2002/1995) 
+-0.9   -0.231      70 0.37 0.93 0.15 SMC field (Kaliri 2013)
+-1.35   1.278      7  3  120 ngc2070 surrounding R136 (selman etal 2000)
+-1.35	1.263     67 2.8 120        R136 (Massey and Hunter 1998)
+-1.28   0.568     67 2.1 6.5        R136 (Sirianni et al 2000)
+-0.27   0.234     67 1.4 2.1        R136 (Sirianni et al 2000)
+-1.20   0.6712    67 1.1 20. 0.2    R136 (Andersen et al 2009)
+-1.10		0.81000 7  0 0 0 XXXX hill, madore, and freedman???
+-1.20		0.85000 7  0 0 0 XXXX
+-1.40		0.80000 7  0 0 0 XXXX
+-0.80		0.28000 7  0 0 0 XXXX
+-2.00		0.64000 7  0 0 0 XXXX
+-1.20		0.45000 7  0 0 0 XXXX
+-0.80		0.58000 7  0 0 0 XXXX
+-3.00		0.27000 7  0 0 0 XXXX
+-1.10		0.95000 7  0 0 0 XXXX
+-2.00		0.95000 7  0 0 0 XXXX
+-1.50		0.66000 7  0 0 0 XXXX
+-1.05		0.74000 7  0 0 0 XXXX
+-1.30		0.52000 7  0 0 0 XXXX
+-1.27		0.60000 7  0 0 0 XXXX
+-1.30		1.4200 7  0 0 0 XXXX
+-1.40		1.3700 7  0 0 0 XXXX  lh9 (massey etal 1995)
+-1.10		1.4800 7  0 0 0 XXXX  lh10 (massey etal 1995)
+-1.40		1.3500 7  0 0 0 XXXX  lh58 (massey etal 1995)
+-1.60		1.5000 7  0 0 0 XXXX  lh117/118 (massey etal 1995)
+-1.30		1.2400 7  0 0 0 XXXX  ngc346 (massey etal 1995)
+-2.10		1.5000 7  0 0 0 XXXX
+-1.80		1.151  7 8 25  oey 1996
+-1.70		1.452  7 8 100 oey 1996
+-1.70		1.301  7 8 50  oey 1996
+-1.60		1.452  7 8 100 oey 1996
+-1.30		1.374  7 8 70  oey 1996
+-1.00		1.301  7 8 50  oey 1996
+-1.30		1.301  7 8 50  oey 1996
+-1.20		0.94000 7  0 0 0 XXXX
+-1.35		1.6900 7  0 0 0 XXXX
+-1.60		1.3900 7  0 0 0 XXXX
+-1.3            1.239   7  5  60 lh2 (parker etal 2001)
+-1.4            0.557   7 1.3 10 hodge301 (grebel & chu 2000)
+-1.23           0.442   7  0.85 9 0.08 ngc1818 (hunter etal 1997)                
+#-1.35           0.35    7  0.7 7  ngc1805 (degrijs etal 2002)                
+#-1.35           0.35    7  0.7 7  ngc1818 (degrijs etal 2002)                
+#                       7  1   7 ngc330 (marco etal 2000)
+#=================================================================
+#----------------- Field stars  ---------------------------------------
+#-0.75                           0.25 late-T  (Burningham et al. 2013)
+#-0.5                            0.5  mid-L to mid-T (Day-Jones et al. 2013)
+#-0.25                           0.25 late-T to early-Y (Kirkpatrick et al. 2012)     
+#<0                                   L and T (Reyle et al. 2010)
+#0                                    T (Metchev et al. 2008)
+#1.5                                  L (Cruz et al. 2007)
+#0.3                             0.6  MLT (Allen et al. 2005)
+
