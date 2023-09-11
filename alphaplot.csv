@@ -5,7 +5,7 @@ System,Reference,Lower mass (Msun),Upper mass (Msun),Slope (Salpeter=2.35),Slope
 30 Dor,2000ApJ...533..203S,2.1,6.5,2.28,0.05,,,-0.5,FALSE,Young Cluster,,,,
 30 Dor,2018Sci...359...69S,30,142.8,1.84,0.18,,,-0.5,FALSE,Young Cluster,,,,Fitting to number of massive stars
 30 Dor,2018Sci...359...69S,15,203,1.9,,1.64,2.27,-0.5,FALSE,Young Cluster,,,,
-30 Dor,2009ApJ...707.1347A,1.1,20,2.2,,,,,,,,,,
+30 Dor,2009ApJ...707.1347A,1.1,20,2.2,0.2,,,-0.5,FALSE,Young Cluster,,,,
 Arches,1999ApJ...525..750F,6.3,125,1.6,0.1,,,0,FALSE,Young Cluster,,,,
 Arches,2019ApJ...870...44H,1.8,70,1.8,0.05,,,0,FALSE,Young Cluster,,,,0.05 stat + 0.06 sys
 Arches,2019ApJ...870...44H,1.8,5.4,0.95,0.45,,,0,FALSE,Young Cluster,,,,2-part; break mass has ~1.6msun uncertainty
