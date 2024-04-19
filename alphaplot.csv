@@ -225,3 +225,12 @@ LH9,1995ApJ...454..151M,8,55,2.4,0.2,,,,,OB Association,,,,
 LH10,1995ApJ...454..151M,8,90,2.1,0.1,,,,,OB Association,,,,
 LH58,1995ApJ...454..151M,8,50,2.4,0.2,,,,,OB Association,,,,
 LH117/118,1995ApJ...454..151M,8,100,2.6,0.2,,,,,OB Association,,,,
+Ret II,2024arXiv240411571F,0.2,0.5,1.77,,1.35,2.15,-2.5,TRUE,UFD,,,,Metallicity range -3.5 to -2
+Ret II,2024arXiv240411571F,0.5,1,2,,0.63,3.07,-2.5,TRUE,UFD,,,,Metallicity range -3.5 to -2
+Ret II,2024arXiv240411571F,0.2,1,1.79,,1.5,2.05,-2.5,TRUE,UFD,,,,Metallicity range -3.5 to -2
+UMa II,2024arXiv240411571F,0.2,0.5,1.6,,0.08,2.24,-2.15,TRUE,UFD,,,,Metallicity range -3.75 to -1.5
+UMa II,2024arXiv240411571F,0.5,1,2.31,,1.92,2.67,-2.15,TRUE,UFD,,,,Metallicity range -3.75 to -1.5
+UMa II,2024arXiv240411571F,0.2,1,2.19,,1.83,2.48,-2.15,TRUE,UFD,,,,Metallicity range -3.75 to -1.5
+Boo I,2022ApJ...939...38F,0.2,0.5,1.67,,1.19,2.24,-2.5,TRUE,UFD,,,,
+Boo I,2022ApJ...939...38F,0.5,1,2.57,,1.64,3.61,-2.5,TRUE,UFD,,,,
+Boo I,2022ApJ...939...38F,0.2,1,1.95,,1.63,2.23,-2.5,TRUE,UFD,,,,

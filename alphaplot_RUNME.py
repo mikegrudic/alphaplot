@@ -1,7 +1,7 @@
 # %%
 import matplotlib
 matplotlib.use('Agg')
-#matplotlib.rcParams['pgf.preamble'] = [r'\usepackage{url}', ]
+from sys import argv
 from matplotlib import pyplot as plt
 import numpy as np
 from pandas import read_csv
@@ -9,13 +9,13 @@ import webbrowser
 import pandas as pd
 
 plot_points_without_errors = True
-color_quantity = "Year"
+color_quantity = argv[1]
 colormap = "viridis"
 marker_by_type = True
 mmin = 0.01
 
 if marker_by_type:
-    markerdict = {"OB Association": "d", "Young Cluster": "o", "MW Field": ">", "MW Bulge": "v","Globular Cluster": "X", "MW Nuclear Cluster": "^"}
+    markerdict = {"OB Association": "d", "Young Cluster": "o", "MW Field": ">", "MW Bulge": "v","Globular Cluster": "X", "MW Nuclear Cluster": "^","UFD": "<"}
 
 data = read_csv("alphaplot.csv",skip_blank_lines=True)
 data = data[~np.isnan(data["Slope (Salpeter=2.35)"])]
@@ -92,7 +92,7 @@ if color_quantity=="Year":
     plt.colorbar(sc,format=ticker.FuncFormatter(fmt),pad=0,label="Year")
 elif color_quantity=="Metallicity":
     sc = ax.scatter(np.zeros(len(mmed)),-100*np.ones(len(mmed)),c=Z,s=10,cmap=colormap)
-    plt.colorbar(sc,label="Z",pad=0)
+    plt.colorbar(sc,label="log Z",pad=0)
 
 
 if len(np.unique(data["System"].values))==1: 
@@ -176,6 +176,6 @@ for t, m in markerdict.items():
 ax.set(xscale='log',xlabel=r"Stellar Mass ($M_\odot$)", ylabel=r"IMF Slope $\Gamma_{\rm IMF}$",xlim=[mmin,300],ylim=[-3,3.5])
 ax.legend(fontsize=6,labelspacing=0)
 #fig.canvas.mpl_connect('pick_event', on_pick)
-plt.savefig("IMF_AlphaPlot.pdf",bbox_inches='tight')
+plt.savefig(f"IMF_AlphaPlot_{color_quantity}.pdf",bbox_inches='tight')
 
 
