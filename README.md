@@ -13,6 +13,6 @@ If you open the [PDF version](https://data.obs.carnegiescience.edu/starforge/IMF
 
 We strongly encourage the community to assist in maintaining this compilation. If you would like to add an IMF measurement, please 
 
-1. Branch and clone this repository.
+1. Branch this repository.
 2. Edit the spreadsheet alphaplot.csv with your new data, filling in as many fields as are available.
-3. Push your branch and issue a pull request, and I will review and implement the changes.
+3. Commit and push changes to your branch and issue a pull request to this repository, and I will review and implement the changes.
