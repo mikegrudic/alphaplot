@@ -15,4 +15,7 @@ We strongly encourage the community to assist in maintaining this compilation. I
 
 1. Branch this repository.
 2. Edit the spreadsheet alphaplot.csv with your new data, filling in as many fields as are available.
-3. Commit and push changes to your branch and issue a pull request to this repository, and I will review and implement the changes.
+3. Commit and push changes to your branch and issue a pull request to this repository's main branch, and I will review and implement the changes.
+
+# TODO
+At present the compilation only contains IMF slopes measured in specific mass ranges. Many studies also report constraints on the log-normal Chabrier characteristic mass and sigma, so it would be great to have a compilation of those too.
